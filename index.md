@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% assign data = site.data.data %}
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
@@ -8,7 +9,7 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 Some paragraph text.
 
-Some more paragraph text. And more.
+Some more paragraph text. {{ data.other }}
 
 # Header 1
 
